@@ -1,0 +1,99 @@
+body {
+    background-color: blanchedalmond;
+    
+    padding: 30px;
+}
+h1 {
+    font-size: 40px;
+    color: hsl(14, 45%, 36%);
+}
+h2 {
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+p {
+  font-size: 16px;
+}
+h1,h2, p {
+    text-align: left;
+}
+#head {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 80%;
+
+}
+#head>img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    border-radius: 3%;
+}
+#preperation {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 80%;
+
+}
+#color-change {
+    color: hsl(332, 51%, 32%);
+}
+#card {
+    background-color: hsl(330, 100%, 98%);
+    border-bottom: 5px;
+    border-top: 19px;
+    padding-block: 8px;
+}
+#ingridents {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 80%;
+}
+#instructions {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 80%;
+}
+#nutrition {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 100%;
+}
+/*  
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+*/
+
+.nutrition-table td {
+  padding: 12px 32px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+/*  
+.nutrition-table tr:last-child td {
+  border-bottom: none;
+}
+
+.nutrition-table td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+ */ 
+strong {
+    padding-left: 300%;
+}
